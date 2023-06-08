@@ -11,5 +11,13 @@ public class first {
             triangleNumber += i;
         }
         System.out.println("Triangle number " + n + " is " + triangleNumber);
+
+        // Вычисление факториала n
+        int factorial = 1;
+        for (int i = 1; i <= n; i++) {
+            factorial *= i;
+        }
+        System.out.println("Factorial of " + n + " is " + factorial);
     }
 }
+
